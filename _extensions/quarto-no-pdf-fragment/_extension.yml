@@ -2,8 +2,9 @@ title: No PDF Fragments
 author: Claude Haiku
 version: 0.1.0
 description: |
-  Prevent fragment elements from appearing in PDF exports of Reveal.js presentations.
-  Add the class `no-pdf-fragment` to any fragment to exclude it from PDF output.
+  Keep selected fragment content visible in Reveal.js PDF exports without creating
+  additional PDF fragment steps. Add the class `no-pdf-fragment` to a fragment to
+  make it visible without treating it as a separate PDF step.
 
 contributes:
   revealjs-plugins:
